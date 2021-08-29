@@ -6,25 +6,34 @@ namespace ExerciciosLP_01
     {
         static void Main(string[] args)
         {
-            int numero = 0;
+            double valor;
 
             try
             {
-                Console.Write("Digite um número: ");
-                numero = int.Parse(Console.ReadLine());
+                Console.Write("Informe um valor: ");
+                //  double.TryParse(Console.ReadLine(), out double valor);
+                valor = double.Parse(Console.ReadLine());
+
+                double numero = Convert.ToInt32(valor);
+
+                // if (numero > 0)
+
+                Console.WriteLine($"Conversão para inteiro : {numero} ");
+
             }
-            catch (ArithmeticException e)
+
+            catch (ArithmeticException ex)
             {
-                Console.WriteLine("Não foi possivel converter o dado informado.");
+                Console.WriteLine("Erro de soma" + ex.Message);
             }
-            catch (Exception ex)
+
+            catch (FormatException)
             {
-                Console.WriteLine("Erro: " + ex.Message);
+                Console.WriteLine("Erro, não foi possível converter");
             }
-            finally
-            {
-                Console.WriteLine("Final da execução do programa!");
-            }
+
+
         }
+
     }
 }
