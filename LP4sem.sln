@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula01", "Aula01\Aula01.csproj", "{B547E0F5-47E4-4591-8942-3EF64CD9ED4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula01", "Aula01\Aula01.csproj", "{B547E0F5-47E4-4591-8942-3EF64CD9ED4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciciosLP_01", "ExerciciosLP_01\ExerciciosLP_01.csproj", "{A894CE8F-90D6-49FC-A5FF-F3305BC8A3B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciciosLP_01", "ExerciciosLP_01\ExerciciosLP_01.csproj", "{A894CE8F-90D6-49FC-A5FF-F3305BC8A3B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_Variaveis", "Exercicio_Variaveis\Exercicio_Variaveis.csproj", "{295DCD9D-386D-4742-A0AB-81CCDA9BA0BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_Variaveis", "Exercicio_Variaveis\Exercicio_Variaveis.csproj", "{295DCD9D-386D-4742-A0AB-81CCDA9BA0BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_Loop", "Exercicio_Loop\Exercicio_Loop.csproj", "{08928BB4-3BE4-4A8B-8F90-67BE12137BEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_Loop", "Exercicio_Loop\Exercicio_Loop.csproj", "{08928BB4-3BE4-4A8B-8F90-67BE12137BEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_Array", "Exercicio_Array\Exercicio_Array.csproj", "{7D253EA1-794F-48DA-B22C-CCCE2AD1E9DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_Array", "Exercicio_Array\Exercicio_Array.csproj", "{7D253EA1-794F-48DA-B22C-CCCE2AD1E9DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_DiretorioArquivo", "Exercicio_DiretorioArquivo\Exercicio_DiretorioArquivo.csproj", "{7641CD2C-020F-4A5A-A24E-7D0E35F5547C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7D253EA1-794F-48DA-B22C-CCCE2AD1E9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D253EA1-794F-48DA-B22C-CCCE2AD1E9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D253EA1-794F-48DA-B22C-CCCE2AD1E9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7641CD2C-020F-4A5A-A24E-7D0E35F5547C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7641CD2C-020F-4A5A-A24E-7D0E35F5547C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7641CD2C-020F-4A5A-A24E-7D0E35F5547C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7641CD2C-020F-4A5A-A24E-7D0E35F5547C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
